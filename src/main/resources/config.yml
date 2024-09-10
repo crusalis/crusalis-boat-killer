@@ -1,0 +1,6 @@
+# To make the program a bit more smooth , I first run a check if the player re-enters the boat
+# In the specified amount of time and if he does I don't even run the timer
+boat-delay-after-placing: 2 #In seconds
+
+# How long it takes for the boat to delete itself
+boat-delete-delay: 60 # In seconds

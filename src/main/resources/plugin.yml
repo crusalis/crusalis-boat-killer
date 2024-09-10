@@ -1,0 +1,12 @@
+name: boatItemKiller
+version: '1.0'
+main: org.oreo.boatItemKiller.BoatItemKiller
+api-version: '1.20'
+
+
+commands:
+
+  boatKill: #Simple trade command
+    description: Start the boat killing process
+    usage: /<command>
+    aliases: [ boatKill ]
