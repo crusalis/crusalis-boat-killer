@@ -123,9 +123,11 @@ class BoatDeleteCommand(private val plugin: BoatItemKiller) : CommandExecutor, T
         val allowedMaterials = setOf(
             Material.SNOWBALL,
             Material.WARPED_FUNGUS_ON_A_STICK,
+            Material.CARROT_ON_A_STICK,
 
             Material.GOLDEN_HORSE_ARMOR,
             Material.IRON_HORSE_ARMOR,
+            Material.LEATHER_HORSE_ARMOR,
 
             Material.PHANTOM_MEMBRANE,
 
