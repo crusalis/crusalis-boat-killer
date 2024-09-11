@@ -4,3 +4,6 @@ boat-delay-after-placing: 2 #In seconds
 
 # How long it takes for the boat to delete itself
 boat-delete-delay: 60 # In seconds
+
+# How long it takes for items and passive mobs to despawn
+entity-item-kill-delay: 60 # In seconds

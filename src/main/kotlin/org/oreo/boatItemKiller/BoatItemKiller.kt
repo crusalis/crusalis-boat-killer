@@ -10,6 +10,7 @@ class BoatItemKiller : JavaPlugin() {
     var boatKillEnabled = false
     val boatDeleteDelay = config.getInt("boat-delete-delay")
     val boatDelayAfterPlacing = config.getInt("boat-delay-after-placing")
+    val entityItemKillDelay = config.getInt("entity-item-kill-delay")
 
     override fun onEnable() {
         server.pluginManager.registerEvents(BoatPlaceListener(this),this)
