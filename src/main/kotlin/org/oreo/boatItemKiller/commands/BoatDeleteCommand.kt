@@ -123,7 +123,13 @@ class BoatDeleteCommand(private val plugin: BoatItemKiller) : CommandExecutor, T
         val allowedMaterials = setOf(
             Material.SNOWBALL,
             Material.WARPED_FUNGUS_ON_A_STICK,
-            Material.GOLDEN_CARROT, // Another example of food
+
+            Material.GOLDEN_HORSE_ARMOR,
+            Material.IRON_HORSE_ARMOR,
+
+            Material.PHANTOM_MEMBRANE,
+
+            Material.GOLDEN_CARROT,
             Material.APPLE,
             Material.BREAD,
             Material.COOKED_BEEF,
@@ -146,14 +152,16 @@ class BoatDeleteCommand(private val plugin: BoatItemKiller) : CommandExecutor, T
             Material.SUSPICIOUS_STEW,
             Material.DRIED_KELP,
             Material.TROPICAL_FISH,
-            Material.GOLDEN_HORSE_ARMOR,
-            Material.IRON_HORSE_ARMOR,
+
+
+
             Material.WOODEN_SWORD,
             Material.STONE_SWORD,
             Material.IRON_SWORD,
             Material.GOLDEN_SWORD,
             Material.DIAMOND_SWORD,
             Material.NETHERITE_SWORD,
+
             Material.LEATHER_HELMET,
             Material.LEATHER_CHESTPLATE,
             Material.LEATHER_LEGGINGS,
@@ -174,26 +182,40 @@ class BoatDeleteCommand(private val plugin: BoatItemKiller) : CommandExecutor, T
             Material.NETHERITE_CHESTPLATE,
             Material.NETHERITE_LEGGINGS,
             Material.NETHERITE_BOOTS,
+
             Material.WOODEN_AXE,
             Material.STONE_AXE,
             Material.IRON_AXE,
             Material.GOLDEN_AXE,
             Material.DIAMOND_AXE,
             Material.NETHERITE_AXE,
+
             Material.WOODEN_PICKAXE,
             Material.STONE_PICKAXE,
             Material.IRON_PICKAXE,
             Material.GOLDEN_PICKAXE,
             Material.DIAMOND_PICKAXE,
             Material.NETHERITE_PICKAXE,
+
             Material.WOODEN_SHOVEL,
             Material.STONE_SHOVEL,
             Material.IRON_SHOVEL,
             Material.GOLDEN_SHOVEL,
             Material.DIAMOND_SHOVEL,
             Material.NETHERITE_SHOVEL,
-            Material.PHANTOM_MEMBRANE,
+
             Material.OAK_FENCE,
+            Material.SPRUCE_FENCE,
+            Material.BIRCH_FENCE,
+            Material.JUNGLE_FENCE,
+            Material.ACACIA_FENCE,
+            Material.DARK_OAK_FENCE,
+            Material.MANGROVE_FENCE,
+            Material.CHERRY_FENCE,
+            Material.BAMBOO_FENCE,
+            Material.CRIMSON_FENCE,
+            Material.WARPED_FENCE,
+
         )
 
         return item.itemStack.type in allowedMaterials
